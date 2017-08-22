@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <declare-styleable name="ProgressView">
+        <attr name="progressWidth" format="dimension" />
+        <attr name="bgColor" format="color" />
+        <attr name="progressColor" format="color" />
+        <attr name="max" format="integer" />
+        <attr name="current" format="integer" />
+        <attr name="showAnim" format="boolean" />
+        <attr name="startColor" format="color" />
+        <attr name="endColor" format="color" />
+        <attr name="tipText" format="string" />
+        <attr name="tipTextColor" format="color" />
+        <attr name="tipTextSize" format="dimension" />
+        <attr name="proTextColor" format="color" />
+        <attr name="proTextSize" format="dimension" />
+    </declare-styleable>
+</resources>
