@@ -118,6 +118,7 @@ public class ProgressView extends View {
         if (!showAnim) { // 不显示动画时，绘制进度就会穿进来的进度值
             animCurrent = current;
         }
+
         drawBg(canvas);
         drawProgress(canvas);
         Log.i("onDraw", animCurrent + "/" + current);
