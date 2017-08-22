@@ -11,13 +11,15 @@
         android:id="@+id/progressView"
         android:layout_width="300dp"
         android:layout_height="300dp"
-        app:current="100"
+        app:current="201"
+        app:endColor="@android:color/holo_green_light"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintLeft_toLeftOf="parent"
         app:layout_constraintRight_toRightOf="parent"
         app:layout_constraintTop_toTopOf="parent"
         app:max="500"
         app:proTextColor="@android:color/holo_blue_bright"
+        app:startColor="@android:color/holo_green_light"
         app:tipText="积分板" />
 
 </android.support.constraint.ConstraintLayout>
